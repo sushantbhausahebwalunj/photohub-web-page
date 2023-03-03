@@ -1,0 +1,797 @@
+*{
+    margin: 0;
+}
+.main{
+    background-color: rgb(8, 170, 234);
+    position: relative;
+    height: 320px;
+}
+.cross{
+    width: 180px;
+}
+.logo{
+    position: absolute;
+    left: 10px;
+    width: 100px;
+    top: 10px;
+}
+.btn_1{
+    position: absolute;
+    width: 10px;
+    top: 5px;
+    display: none;
+}
+.sign_up{
+    position: absolute;
+    width: 10px;
+    display: none;
+}
+.search{
+    position: absolute;
+    width: 35px;
+    top: 5px;
+    right: 65px;
+}
+.menu_icon{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.main_h2{
+    color: white;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.main_p{
+    color: white;
+    margin-left: 10px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.btn_2{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 90px;
+    padding: 8px;
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: rgb(8, 170, 234);
+}
+.main_img4{
+    width: 45%;
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+}
+.btn_3{
+    position: absolute;
+   bottom: 10px;
+   width: 28px;
+   border-radius: 15px;
+}
+.btn_4{
+    position: absolute;
+   bottom: 10px;
+   right: 120px;
+   width: 28px;
+   background-color: black;
+   border-radius: 15px;
+}
+.btn_5{
+    position: absolute;
+   bottom: 10px;
+   left: 140px;
+   width: 28px;
+   background-color: black;
+   border-radius: 15px;
+}
+.about{
+    background-color: white;
+    height: 250px;
+    position: relative;
+}
+.about_img{
+    width: 55%;
+    margin-top: 15px;
+}
+.about_h3{
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+span{
+    color: rgb(8, 170, 234);
+}
+.about_p{
+    position: absolute;
+    right: 0;
+    font-size: 10px;
+    top: 65px;   
+}
+.about button{
+    background-color: white;
+    border: 2px solid rgb(8, 170, 234);
+}
+.about_us{
+    position: absolute;
+    left: 30%;
+    top: 65%;
+}
+.admin{
+    position: relative;
+    height: 500px;
+    background-image: url(../images/why.jpg);
+}
+.admin_btn1{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    margin-left: 6px;
+    padding: 5px;
+}
+.admin_div{
+    margin-left: 6px;
+    position: absolute;
+    width: 95%;
+    height: 60%;
+    background-color: white;
+}
+.admin_img{
+    position: absolute;
+    width: 35%;
+    top: 0;
+    left: 90px;
+}
+.admin h3{
+    position: absolute;
+    left: 95px;
+    top: 120px;
+    color: rgb(8, 170, 234);
+}
+.admin_p{
+    position: absolute;
+    bottom: 40px;
+    left: 5px;
+}
+.admin a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+.admin_a1{
+    position: absolute;
+    bottom: 95px;
+    left: 85px;
+}
+.admin_a2{
+    position: absolute;
+    bottom: 55px;
+    left: 85px;
+}
+.admin_a3{
+    position: absolute;
+    bottom: 20px;
+    left: 85px;
+}
+.works{
+    position: relative;
+    height: 500px;
+}
+.work_h3{
+    position: absolute;
+    top: 15px;
+    left: 60px;
+}
+.work_p{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+.works button{
+   position: absolute;
+   top: 160px;
+   left: 60px;
+   background-color: white;
+   border: 2px solid rgb(8, 170, 234);
+}
+.work_img{
+    position: absolute;
+    width: 300px;
+    bottom: 10px;
+}
+.inputs{
+    position: relative;
+    height: 300px;
+    background-color: rgb(8, 170, 234);
+}
+.input_h3{
+    position: absolute;
+    top: 15px;
+    left: 35px;
+}
+.input_span{
+    color: white;
+}
+input{
+    border: none;
+    width: 200px;
+    border-radius: 50px;
+    padding: 5px;
+    padding-left: 10px;
+    left: 30px;  
+}
+.input_name{
+    position: absolute;
+    top: 50px;
+}
+.input_email{
+    position: absolute;
+    top: 90px;
+}
+.input_number{
+    position: absolute;
+    top: 130px;
+}
+textarea{
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    left: 30px;
+    top: 170px;
+    border-radius: 10px;
+    border: none;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.input_submit{
+    position: absolute;
+    width: 80px;
+    bottom: 15px;
+    left: 90px;
+}
+iframe{
+    display: none;
+}
+.social_link{
+    height: 720px;
+    background-color: black;
+    position: relative;
+}
+h5{
+    color: white;
+    font-size: 25px;
+}
+.address{
+    position: absolute;
+    top:10px; 
+    left: 100px;
+}
+.add_p{
+    color: gray;
+    position: absolute;
+    top: 50px;
+}
+.links{
+    position: absolute;
+    top: 160px;
+    left: 100px;
+}
+.link_ul{
+    color: white;
+    top: 200px;
+    left: 75px;
+    font-size: 20px;
+    position: absolute;
+}
+.follow{
+    position: absolute;
+    top: 320px;
+    left: 80px;
+}
+i{  
+    color: white;
+    width: 30px;
+}
+.facebook{
+    position: absolute;
+    top: 370px;
+    left: 90px;
+}
+ a{
+    text-decoration: none;
+    color: white;
+}
+.twitter{
+    position: absolute;
+    top: 410px;
+    left: 90px;
+}
+.linkd{
+    position: absolute;
+    top: 450px;
+    left: 90px;
+}
+.youtube{
+    position: absolute;
+    left: 90px;
+    top: 490px;
+}
+.insta{
+    position: absolute;
+    left: 90px;
+    top: 525px;
+}
+.news_let{
+    position: absolute;
+    bottom: 120px;
+    left: 90px;
+}
+.news_input{
+    position: absolute;
+    left: 60px;
+    bottom: 75px;
+}
+.news_submit{
+    position: absolute;
+    bottom: 25px;
+    width: 100px;
+    background-color: rgb(8, 170, 234);
+    left: 100px;
+}
+.footer{
+    background-color: rgb(8, 170, 234);
+}
+.footer_p{
+    font-size: 13px;
+}
+
+
+@media (min-width:768px){
+   
+   .main{
+    height: 400px;
+   }
+   .cross{
+    width: 300px;
+   }
+   .logo{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 10px;
+   }
+   .btn_1{
+    display: inline;
+    width: 90px;
+    border-radius: 25px;
+    margin-left: 130px;
+    margin-top: 5px;
+    padding: 5px;
+    border: none;
+   }
+   .sign_up{
+    display: inline;
+    margin-left: 250px;
+    width: 90px;
+    margin-top: 14px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(8, 170, 234);
+   }
+   .menu_icon{
+    display: none;
+   }    
+   .main_h2{
+    margin-left: 100px;
+    line-height: 35px;
+   }
+   .main_p{
+    margin-left: 100px;
+    font-size: medium;
+    margin-top: 15px;
+    line-height: 20px;
+   }
+   .btn_2{
+    margin-top: 20px;
+    margin-left: 120px;
+   }
+   .main_img4{
+    margin-right: 70px;
+   }
+   .btn_3{
+    margin-left: 100px;
+    width: 40px;
+   }
+   .btn_4{
+    margin-right: 245px;
+    width: 40px;
+   }
+   .btn_5{
+    margin-left: 270px;
+    width: 40px;
+   }
+   .about_h3{
+    left: 450px;
+    font-size: 30px;
+   }
+   .about{
+    height: 330px;
+   }
+   .about_p{
+    left: 450px;
+    margin-top: 10px;
+    font-size: 20px;
+   }
+   .about button{
+    position: absolute;
+    top: 45%;
+    right: 10%;
+   }
+   .about_us{
+    left: 60%;
+    top: 75%;
+    font-size: 30px;
+   }
+   .admin_btn1{
+    width: 150px;
+    padding: 7px;
+   }
+   .admin_img{
+    width: 140px;
+    left: 250px;
+   }
+   .admin h3{
+    top: 160px;
+    left: 260px;
+   }
+   .admin_p{
+    text-align: center;
+    left: 60px;
+    padding-left: 30px;
+    font-size: 20px;
+   }
+   .admin a{
+    left: 40px;
+   }
+   .works{
+    height: 430px;
+   }
+   .work_h3{
+    top: 100px;
+    font-size: 30px;
+   }
+   .work_p{
+    top: 170px;
+   }
+   .works button{
+    top: 260px;
+    left: 40px;
+   }
+   .work_img{
+    width: 450px;
+    top: 30px;
+    right: 10px;
+   }
+   .inputs{
+    position: relative;
+    height: 300px;
+    background-color: rgb(8, 170, 234);
+   }
+   iframe{
+    width: 400px;
+    display: inline;
+    position: absolute;
+    top: 50px;
+    right: 60px;
+   }
+   .social_link{
+    height: 430px;
+   }
+   .address{
+    left: 80px;
+    top: 30px;
+   }
+   .add_p{
+    left: 60px;
+    top: 70px;
+   }
+   .links{
+    left: 530px;
+    top: 30px;
+   }
+   .link_ul {
+    position: absolute;
+    left:500px;
+    top: 80px;
+   }
+   .follow{
+    top: 220px;
+    left: 110px;
+   }
+   i{
+    width: 50px;
+   }
+   .facebook{
+    top: 270px;
+    left: 20px;
+    font-size: 25px;
+   }
+   .twitter{
+    top: 270px;
+    left: 240px;
+    font-size: 25px;
+   }
+   .linkd{
+    top: 320px;
+    left: 20px;
+    font-size: 25px;
+   }
+   .youtube{
+    top: 320px;
+    left: 240px;
+    font-size: 25px;
+   }
+   .insta{
+    top: 370px;
+    left: 120px;
+    font-size: 25px;
+   }
+   .news_let{
+    left: 470px;
+    bottom: 180px;
+   }
+   .news_input{
+    left: 450px;
+    bottom: 110px;
+    width: 200px;
+    padding: 10px;
+   }
+   .news_submit{
+    left: 500px;
+    bottom: 50px;
+    padding: 10px;
+    width: 120px;
+   }
+   .footer_p{
+    font-size: 20px;
+    text-align: center;
+   }
+}
+
+
+
+@media (min-width:1024px){
+    .main{
+        height: 700px;
+    }
+    .cross{
+        width: 380px;
+    }
+    .logo{
+        margin-left: 25px;
+    }
+    .btn_1{
+        width: 200px;
+        margin-left: 450px;
+        margin-top: 20px;
+        padding: 15px;
+        font-size: 20px;
+    }
+    .sign_up{
+        margin-left: 700px;
+        margin-top: 25px;
+        padding: 10px;
+        font-size: 25px;
+        width: 250px;
+    }
+    .search{
+        margin-right: 50px;
+        margin-top: 25px;
+        width: 45px;
+    }
+    .main_h2{
+        margin-top: 55px;
+        margin-left: 160px;
+        font-size: 35px;
+        line-height: 47px;
+    }
+    .main_p{
+        margin-left: 160px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .btn_2{
+        margin-top: 25px;
+        width: 120px;
+        margin-left: 170px;
+    }
+    .main_img4{
+        margin-right: 250px;
+    }
+    .btn_3{
+        width: 50px;
+        margin-left: 250px;
+    }
+    .btn_4{
+        width: 50px;
+        margin-right: 750px;
+    }
+    .btn_5{
+        width: 50px;
+        margin-left: 520px;
+    }
+    .about{
+        height: 400px;
+    }
+    .about_img{
+        width: 30%;
+        margin-top: 50px;
+    }
+    .about_h3{
+        left: 45%;
+        top: 40px;
+        font-size: 40px;
+    }
+    .about_p{
+        left: 45%;
+        top: 90px;
+        font-size: 30px;
+    }
+    .about button{
+        left: 55%;
+        top: 50%;
+        width: 130px;
+    }
+    .about_us{
+        left: 40%;
+        top: 80%;
+        font-size: 40px;
+    }
+    .admin_div{
+        top: 90px;
+        width: 750px;
+        margin-left: 450px;
+    }
+    .admin_btn1{
+        width: 150px;
+        font-weight: 600;
+        position: absolute;
+        margin-left: 300px;
+        margin-top: 90px;
+    }
+    .admin a{
+        margin-left: 270px;
+    }
+    .admin_a1{
+        margin-bottom: 220px;
+    }
+    .admin_a2{
+        margin-bottom: 200px;
+    }
+    .admin_a3{
+        margin-bottom: 180px;
+    }
+    .work_img{
+        width: 500px;
+        right: 170px;
+    }
+    .work_h3{
+        left: 250px;
+        top: 150px;
+        font-size: 40px;
+    }
+    .work_p{
+        left: 200px;
+        top: 240px;
+        font-size: 20px;
+    }
+    .works button{
+        left: 230px;
+        top: 330px;
+    }
+    .inputs{
+        height: 400px;
+    }
+    .input_h3{
+        top: 45px;
+        left: 200px;
+        font-size: 30px;
+    }
+    input{
+        width: 400px;
+        padding: 10px;
+        left: 150px;
+    }
+    .input_name{
+        top: 100px;
+    }
+    .input_email{
+        top: 150px;
+    }
+    .input_number{
+        top: 200px;
+    }
+    textarea{
+        top: 250px;
+        left: 150px;
+        width: 400px;
+    }
+    .input_submit{
+        width: 150px;
+        bottom: 15px;
+        left: 250px;
+    }
+    iframe{
+        top: 70px;
+        right: 100px;
+        width: 700px;
+        height: 300px;
+    }
+    .social_link{
+        height: 340px;
+    }
+    .address{
+        top: 50px;
+        left: 40px;
+        font-size: 35px;
+    }
+    .add_p{
+        top: 100px;
+        left: 30px;
+        font-size: 20px;
+    }
+    .links{
+        top: 50px;
+        font-size: 30px;
+    }
+    .link_ul{
+        top: 100px;
+        font-size: 30px;
+    } 
+    .follow{
+        top: 50px;
+        left: 800px;
+        font-size: 30px;
+    }
+    .facebook{
+        left: 780px;
+        top: 110px;
+    }
+    .twitter{
+        left: 780px;
+        top: 150px;
+    }   
+    .linkd{
+        left: 780px;
+        top: 190px;
+    }
+    .youtube{
+        left: 780px;
+        top: 230px;
+    }
+    .insta{
+        left: 780px;
+        top: 270px;
+    }
+    .news_let{
+        bottom: 280px;
+        font-size: 30px;
+        left: 1110px;
+    }
+    .news_input{
+        bottom: 200px;
+        left:1110px;
+        padding: 15px;
+        width: 250px;
+    }
+    .news_submit{
+        bottom: 130px;
+        left: 1150px;
+        width: 150px;
+        padding: 10px;
+    }
+    .footer_p{
+        font-size: 15px;
+    }
+ }
